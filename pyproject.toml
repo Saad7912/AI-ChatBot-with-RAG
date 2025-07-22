@@ -1,0 +1,13 @@
+[project]
+name = "rag-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community>=0.3.27",
+    "langchain-groq>=0.3.6",
+    "pypdf>=5.8.0",
+    "sentence-transformers>=5.0.0",
+    "streamlit>=1.47.0",
+]
