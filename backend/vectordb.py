@@ -2,7 +2,7 @@ import os
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.indexes import VectorstoreIndexCreator
-# from backend.doc_loader import load_all_documents
+from backend.doc_loader import load_all_documents
 import streamlit as st
 
 @st.cache_resource
