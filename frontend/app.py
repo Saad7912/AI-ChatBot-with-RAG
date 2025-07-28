@@ -1,5 +1,5 @@
 import streamlit as st
-# from llm.rag_pipeline import get_answer
+from llm.rag_pipeline import get_answer
 
 st.set_page_config(page_title="Ask ChatBot")
 st.title("Ask ChatBot!")
